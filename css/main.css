@@ -12,7 +12,19 @@ html {
   text-size-adjust: 100%;
 }
 
-.card-img {
+.cards {
+  list-style-type: none;
+}
+
+.card {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+.card-img img {
   width: 50px;
   position: relative;
   display: block;
@@ -33,16 +45,16 @@ html {
   line-height: 1.4;
 }
 
-.cards {
-  list-style-type: none;
-}
-
 body {
   margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
 
+  .cards {
+    padding: 0;
+    margin: 0;
+  }
   .card-img {
     margin: .3rem;
     margin-top: 0;
@@ -65,11 +77,6 @@ body {
     margin-top: .4rem;
   }
 
-  .cards {
-    padding: 0;
-    margin: 0;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -78,7 +85,7 @@ body {
     margin: 0;
   }
 
-  .card-img img {
+  .card-img {
     display: block;
     margin: 1rem 4rem 1rem 4rem;
   }
@@ -92,6 +99,7 @@ body {
     width: 200px;
     font-size: 120%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -104,6 +112,7 @@ body {
     width: 300px;
     font-size: 130%;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -111,4 +120,5 @@ body {
   .card {
     width: 300px;
   }
+
 }
