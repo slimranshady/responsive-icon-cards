@@ -63,7 +63,3 @@ css:
       - ['font-size\s*:\s*.+px', 'Pixel units should not be used for `font-size` — use `rem` instead']
       - ['line-height\s*:\s*.+(px|rem|em)', 'Line heights should not have units']
       - ['float:', 'Use `display: inline-block` instead of float to complete this assignment']
-
-screenshots:
-  - path: "index.html"
-    sizes: [320, 400, 650, 980, 1400]
